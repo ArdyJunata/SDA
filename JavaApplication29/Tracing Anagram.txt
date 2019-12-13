@@ -1,0 +1,19 @@
+word = nat
+
+arrChar[0] = n
+arrChar[1] = a
+arrChar[2] = t
+
+doAnagram(3)
+     doAnagram(3 -1)
+          dislplayword()
+               count = 0
+               print(" ")
+               print(" ")
+               print(1 + " ")
+               print("n")
+               print(" ")
+               print("a")
+               print(" ")
+               print("t")
+

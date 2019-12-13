@@ -1,0 +1,44 @@
+baris = 3
+_ = spasi
+cetakPiramid(0)
+     cetakSpasi(0, 0)
+          print(" ")
+          cetakSpasi(1, 0)
+               print(" ")
+               cetakSpasi(2,0)
+     cetakBintang(3, 0)
+           print("* ")
+          cetakBintang(2, 0)
+     println("")
+
+out = __*
+
+cetakPiramid(1)
+     cetakSpasi(0, 1)
+          print(" ")
+          cetakSpasi(1, 1)
+     cetakBintang(3, 1)
+          print("* ")
+          cetakBintang(2, 1)
+               print("* ")
+               cetakBintang(1, 1)
+
+out = 
+__*
+_*   *
+
+cetakPiramid(2)
+     cetakSpasi(0, 2)
+     cetakBintang(3, 2)
+        print("* ")
+        cetakBintang(2, 2)
+             print("* ")
+             cetakBintang(1, 2)
+             print("* ")
+             cetakBintang(0, 2)
+
+out = 
+__*
+_*   *
+*   *   *
+		

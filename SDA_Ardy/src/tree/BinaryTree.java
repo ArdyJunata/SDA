@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package tree;
 
-/**
- *
- * @author LAB-316-28
- */
 public class BinaryTree {
 
     private Nodes root;
@@ -73,7 +64,6 @@ public class BinaryTree {
                 return false;
             }
         }
-
         if (current.leftChild == null && current.rightChild == null) {
             if (current == root) {
                 root = null;

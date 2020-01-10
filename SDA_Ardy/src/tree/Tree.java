@@ -83,14 +83,16 @@ public class Tree {
                 if (id < current.iData) {
                     current = current.leftChild;
                     if (current == null) {
-                        System.out.println("Insert " + id + " sebagai anak kiri dari " + parent.iData);
+                        System.out.println("Insert " + id 
+                                + " sebagai anak kiri dari " + parent.iData);
                         parent.leftChild = baru;
                         break;
                     }
                 } else {
                     current = current.rightChild;
                     if (current == null) {
-                        System.out.println("Insert " + id + " sebagai anak kanan dari " + parent.iData);
+                        System.out.println("Insert " + id 
+                                + " sebagai anak kanan dari " + parent.iData);
                         parent.rightChild = baru;
                         break;
                     }
